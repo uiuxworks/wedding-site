@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: light only;
+  }
+
+
+  
+  @font-face {
+    font-family: 'Roxborough CF';
+    src: url('RoxboroughCF-Light.eot');
+    src: local('RoxboroughCF-Light'), local('RoxboroughCF-Light'),
+        url('/fonts/RoxboroughCF-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/RoxboroughCF-Light.woff2') format('woff2'),
+        url('/fonts/RoxboroughCF-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'Roxborough CF';
+  src: url('RoxboroughCF-Light.woff2') format('woff2'),
+      url('RoxboroughCF-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+} */
